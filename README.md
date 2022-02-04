@@ -1,6 +1,6 @@
 # Singularity Containers on M1
 
-This is a repository containing a ready-to-use environment for singularity in arm64 (M1). 
+This is a repository containing a ready-to-use environment for singularity in arm64 (M1). It has been prepared specifically for the [SKA SRC  training on containers  event](https://gitlab.com/ska-telescope/src/ska-src-training-containers) and allows you the use of [singularity containers](https://sylabs.io/singularity) with Apple's M1 architecture. 
 
 ## Install UTM for Apple M1
 
@@ -10,11 +10,11 @@ Download it and then install it.
 
 ## Download and unzip the pre-build UTM image ready to use.
 
-Click here to [download this image]().
+Click here to [download this image](https://drive.google.com/file/d/1STHZq81HIRFit2en5jzAPaHSLfPc7tVB/view?usp=sharing).
 
 This is an image created using Ubuntu 20.04 for ARM 64 Architecture.
 
-After that, unzip the file downloaded (3GB to 6GB).
+After that, unzip the file downloaded (from 3GB to 6GB).
 
 # Import UTM image from the UTM application
 
@@ -38,7 +38,7 @@ Use the following credentials:
 
 Connecting via SSH is a better option than directly using the shell that appears from the screen when starting the Virtual Machine. 
 
-To do that, open a Terminal and type the following:
+To do that, open a Terminal in your host system and type the following:
 
 ```
 ssh -p 22022 ska@localhost
@@ -48,6 +48,7 @@ and use the following credentials:
 
 - username: **ska**
 - passwoord: **ska**
+
 
 # Change keyboard layout
 
@@ -59,3 +60,8 @@ sudo dpkg-reconfigure keyboard-configuration
 
 And then select you keyboard layout. Then you have to reboot the virtual machine by typing: ``sudo reboot``
 
+
+
+# Acknowledgments
+
+Mateusz Malenta and Alex Clarke
