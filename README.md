@@ -20,6 +20,8 @@ After that, unzip the file downloaded (3GB to 6GB).
 
 Open UTM application, then click on the menu "File" and then "Import", select the image `skatraining-singularity.utm`.
 
+[!Import image](./media/importimage.png)
+
 # Start the image
 
 Click on the recently imported image and then click `>` to start.
@@ -49,8 +51,11 @@ and use the following credentials:
 
 # Change keyboard layout
 
-Because the image was built on my machine, in the installation I used my local keyboard layout, so to use your own keyboard layout (FR, DE, UK, ...) you can use the following:
+Because the image was built on my machine, in the installation I used my local keyboard layout, so to use your own keyboard layout (FR, DE, UK, ...), to do it you can type the following:
 
 ```
 sudo dpkg-reconfigure keyboard-configuration
 ```
+
+And then select you keyboard layout. Then you have to reboot the virtual machine by typing: ``sudo reboot``
+
