@@ -22,7 +22,7 @@ Click here: [UTM for M1](https://mac.getutm.app/)
 
 Download it and then install it.
 
-## Download and unzip the pre-build UTM image ready to use.
+## Download and unzip the pre-build UTM image ready to use
 
 Click here to [download this image](https://drive.google.com/file/d/1STHZq81HIRFit2en5jzAPaHSLfPc7tVB/view?usp=sharing).
 
@@ -48,7 +48,7 @@ Use the following credentials:
 - passwoord: **ska**
 
 
-# Connect to the environmente using SSH.
+# Connect to the environmente using SSH
 
 Connecting via SSH is a better option than directly using the shell that appears from the screen when starting the Virtual Machine. 
 
