@@ -1,4 +1,4 @@
-# Singularity Containers on M1
+# Singularity Containers on Apple M1 (ARM64)
 
 This is a repository containing a ready-to-use environment for singularity in arm64 (M1). It has been prepared specifically for the [SKA SRC  training on containers  event](https://gitlab.com/ska-telescope/src/ska-src-training-containers) and allows you the use of [singularity containers](https://sylabs.io/singularity) with Apple's M1 architecture. 
 
