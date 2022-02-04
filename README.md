@@ -2,6 +2,7 @@
 
 This is a repository containing a ready-to-use environment for singularity in arm64 (M1). It has been prepared specifically for the [SKA SRC  training on containers  event](https://gitlab.com/ska-telescope/src/ska-src-training-containers) and allows you the use of [singularity containers](https://sylabs.io/singularity) with Apple's M1 architecture. 
 
+
 ## Install UTM for Apple M1
 
 Click here: [UTM for M1](https://mac.getutm.app/)
@@ -59,6 +60,20 @@ sudo dpkg-reconfigure keyboard-configuration
 ```
 
 And then select your keyboard layout. Then you have to reboot the virtual machine by typing: ``sudo reboot``
+
+# Building you own container on singularity for M1
+
+**Note you can use all Singularity and Docker containers from their Cloud Hubs, but there must be containers on the ARM64 architecture. Many of the containers are already ported to ARM64, but there are still many that have not been migrated to this new architecture.**
+
+Here we guide you through the process of creating your own container that will work perfectly for ARM64 architectures.
+
+First, clone this repository:
+
+
+Then type:
+
+After that build the container:
+
 
 
 
