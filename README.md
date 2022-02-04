@@ -122,7 +122,7 @@ You will see the following:
 
 The next step is to build a container that has more functionalities, in this case we are going to create a container that we can use later to improve it and create, for example our python code encapsulated in containers. 
 
-First, build the container (you can see how it is created from a definition file [here]()):
+First, build the container (you can see how it is created from a definition file [here](myplottingapp.def)):
 
 ```
 sudo singularity build myplottingapp.sif myplottingapp.def 
