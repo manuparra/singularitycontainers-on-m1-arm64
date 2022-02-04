@@ -12,7 +12,7 @@ This is a repository containing a ready-to-use environment for singularity in ar
 - [Building you own container on singularity for M1](#building-you-own-container-on-singularity-for-m1)
 - [Acknowledgments](#acknowledgments)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
@@ -158,4 +158,4 @@ Then, if you want to go back to the host, type: ``exit``
 
 # Acknowledgments
 
-Mateusz Malenta and Alex Clarke
+(Mateusz Malenta)[https://www.linkedin.com/in/mmalenta/?originalSubdomain=uk] and Alex Clarke
