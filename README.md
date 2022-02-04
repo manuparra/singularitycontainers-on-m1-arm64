@@ -20,7 +20,7 @@ After that, unzip the file downloaded (from 3GB to 6GB).
 
 Open UTM application, then click on the menu "File" and then "Import", select the image `skatraining-singularity.utm`.
 
-[!Import image](./media/importimage.png)
+![Import image](./media/importimage.png)
 
 # Start the image
 
