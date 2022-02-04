@@ -44,7 +44,7 @@ To do that, open a Terminal in your host system and type the following:
 ssh -p 22022 ska@localhost
 ```
 
-and use the following credentials:
+and you have to use the following credentials:
 
 - username: **ska**
 - passwoord: **ska**
@@ -58,7 +58,7 @@ Because the image was built on my machine, in the installation I used my local k
 sudo dpkg-reconfigure keyboard-configuration
 ```
 
-And then select you keyboard layout. Then you have to reboot the virtual machine by typing: ``sudo reboot``
+And then select your keyboard layout. Then you have to reboot the virtual machine by typing: ``sudo reboot``
 
 
 
